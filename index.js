@@ -13,7 +13,7 @@ import packageRoute from './routes/package.js';
 import customTourRoute from './routes/customeTour.js';
 import foodRoute from './routes/food.js';
 import vechicalRoute from './routes/vechical.js';
-import hotelRoute from './routes/hotel.js';
+// import hotelRoute from './routes/hotel.js';
 import packageBookingRoute from './routes/packageBooking.js';
 
 //stripe
@@ -58,7 +58,7 @@ app.use('/api/v1/booking', bookingRoute);
 app.use('/api/v1/package', packageRoute);
 app.use('/api/v1/food', foodRoute);
 app.use('/api/v1/vechical', vechicalRoute);
-app.use('/api/v1/hotel', hotelRoute);
+// app.use('/api/v1/hotel', hotelRoute);
 app.use('/api/v1/customtour', customTourRoute);
 app.use('/api/v1/packagebooking',packageBookingRoute);
 
